@@ -1,0 +1,21 @@
+{
+  "name": "spinal-env-space_management-btn-joint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run create_drive_env && npm run create_admin_env",
+    "create_drive_env": "create_drive_env  -m",
+    "create_admin_env": "create_admin_env  -m"
+  },
+  "dependencies": {
+    "spinal-env-space_management-btn": "git+https://github.com/spinalcom/spinal-env-space_management-btn.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
